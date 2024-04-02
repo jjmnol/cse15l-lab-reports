@@ -1,6 +1,5 @@
-CSE 15L:
-***
-_SP24_
+# CSE 15L
+## SP24
 
 __Hello World!__ 
 
