@@ -2,7 +2,7 @@
 > ## 1. No Arguments
 ![Image](cd1.png)
 
-The first example is using the command `cd` with no arguments. When this is run, it will return the user to the home directory, which in this case is !!!!
+The first example is using the command `cd` with no arguments. When this is run, it will return the user to the home directory, which in this case takes the user back from Documents to home. This is because since the `cd` command lacks an argument, it cannot directed anywhere besides the home directory.
 
 > ## 2. A path to directory as an argument
 ![Image](
