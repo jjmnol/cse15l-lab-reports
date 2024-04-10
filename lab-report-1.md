@@ -8,19 +8,21 @@ The first example is using the command `cd` with no arguments. When this is run,
 ![image](https://github.com/jjmnol/cse15l-lab-reports/assets/146889917/90c03318-5177-48e6-9a92-32746416921b)
 
 
-The second example is using the command `cd` with a path to directory as an argument. When using a path to directory as an argument using the command `cd`, it will change the working directory to the desired directory. In this case, it is !!!. 
+The second example is using the command `cd` with a path to directory as an argument. When using a path to directory as an argument using the command `cd`, it will change the working directory to the desired directory. In this case, it is downloads. It can be seen that when we used `cd downloads` the working directory changed to Downloads as it is our desired working directory. 
 
 > ## 3. A path to a file as an argument
-![Image](
+![image](https://github.com/jjmnol/cse15l-lab-reports/assets/146889917/e18c682a-f934-47f4-b0b5-483bf94bc513)
 
-The last example is using the command `cd` with a path to a file as an argument. Doing this, a series of directories will be listed from first to last, with the final directory being the one that is opened.
+
+The last example is using the command `cd` with a path to a file as an argument. Doing this, a series of directories will be listed where we can then choose which one we want to open. Above, I chose to open my OneDrive, leading to the files in it, and I chose to open Attachments. Because of this, I was able to open the file and access the contents in it.
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 # `ls`
 > ## 1. No Arguments
-![Image](
+![image](https://github.com/jjmnol/cse15l-lab-reports/assets/146889917/9e2a29d1-abd7-4b83-8c87-03035f86b764)
 
-The first example is using the command `ls` with no arguments. When no arguments are provided with `ls`, it will return the list of files in the current directory in alphabetical order. As shown in the image above, the files are sorted !!!
+
+The first example is using the command `ls` with no arguments. When no arguments are provided with `ls`, it will return the list of files in the current directory in alphabetical order. This is because there is no specific directory that it is being asked to list the files of, so instead it displays the files in the home directory.
 
 > ## 2. A path to directory as an argument
 ![Image](
