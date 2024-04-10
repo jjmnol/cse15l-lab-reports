@@ -11,11 +11,10 @@ The first example is using the command `cd` with no arguments. When this is run,
 The second example is using the command `cd` with a path to directory as an argument. When using a path to directory as an argument using the command `cd`, it will change the working directory to the desired directory. In this case, it is downloads. It can be seen that when we used `cd downloads` the working directory changed to Downloads as it is our desired working directory. This does not create an error.
 
 > ## 3. A path to a file as an argument
-![image](https://github.com/jjmnol/cse15l-lab-reports/assets/146889917/29d9be38-bc59-44e1-aa34-c173ab27ba18)
+![image](https://github.com/jjmnol/cse15l-lab-reports/assets/146889917/cb99bafe-a047-4ac1-9b96-7817d7d8294d)
 
 
-
-The last example is using the command `cd` with a path to a file as an argument. Doing this, a series of directories will be listed where we can then choose which one we want to open. Above, I chose to open my Desktop, leading to the directory lab1, and I chose to open the file 'lab1.txt'. Because of this, I was able to open the file and access the contents in it. This does not create an error.
+The last example is using the command `cd` with a path to a file as an argument. Becaause lab1.txt is not a directory, an error is produced since `cd` can only change directories into a folder and not a file.
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 # `ls`
@@ -35,7 +34,7 @@ The second example is using the command `ls` with a path to directory as an argu
 ![image](https://github.com/jjmnol/cse15l-lab-reports/assets/146889917/aeae5dbc-8131-4161-a122-c89c8ac12390)
 
 
-The last example is using the command `ls` with a path to a file as an argument. In this case, the command `ls` opened the contents in 'Documents' and further into 'Videos'. As a result of this, the user is able to see the directory and files under Documents and the file that is stored in it labeled 'Videos'. This does not create an error.
+The last example is using the command `ls` with a path to a file as an argument. In this case, the command `ls` opened the contents in 'Documents' and further into 'Videos'. As a result of this, the user is able to see the directory and files under Documents and the file that is stored in it labeled 'Videos'. This does create an error.
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 # `cat`
