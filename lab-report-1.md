@@ -31,9 +31,10 @@ The first example is using the command `ls` with no arguments. When no arguments
 The second example is using the command `ls` with a path to directory as an argument. When this is run, it will show the user the contents of the directory that was called upon. In this example, it is being asked to list the files in links and displays it to the user. This is because the user is being more specific in referencing a directory using `ls` compared to using it with no arguments.
 
 > ## 3. A path to a file as an argument
-![Image](
+![image](https://github.com/jjmnol/cse15l-lab-reports/assets/146889917/aeae5dbc-8131-4161-a122-c89c8ac12390)
 
-The last example is using the command `ls` with a path to a file as an argument.  !!!
+
+The last example is using the command `ls` with a path to a file as an argument. In this case, the command `ls` opened the contents in 'Documents' and further into 'Videos'. As a result of this, the user is able to see the directory and files under Documents and the file that is stored in it labeled 'Videos'.
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 # `cat`
