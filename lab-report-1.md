@@ -30,6 +30,7 @@ The second example is using the command `ls` with a path to directory as an argu
 ![Image](
 
 The last example is using the command `ls` with a path to a file as an argument.  !!!
+
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 # cat
 ## No Arguments
