@@ -39,14 +39,15 @@ The last example is using the command `ls` with a path to a file as an argument.
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 # `cat`
 > ## 1. No Arguments
-![Image](
+![image](https://github.com/jjmnol/cse15l-lab-reports/assets/146889917/1c053a4d-3947-4a9e-b90b-50832c887ea3)
 
-The first example is using the command `cat` with no arguments. When the 'cat' is used with no arguments, it will read the data from the input and compose it to the output. In the picture above, this is exemplified when !!!
+
+The first example is using the command `cat` with no arguments. When the 'cat' is used with no arguments, it reads the data from the input and composes it to the output. In the picture above, this is exemplified the program took the user input 'cse15l' and outputted 'cse15l' as well. This occurs because there is no argument used in the original `cat` command, so the input the user types becomes the standard input
 
 > ## 2. A path to directory as an argument
 ![Image](
 
-The second example is using the command `cat with a path to directory as an argument. !!!
+The second example is using the command `cat with a path to directory as an argument. 
 
 > ## 3. A path to a file as an argument
 ![Image](
