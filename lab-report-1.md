@@ -1,6 +1,6 @@
 # `cd`
 > ## 1. No Arguments
-![Image](Screenshot 2024-04-09 205804.png)
+![Image]()
 
 The first example is using the command `cd` with no arguments. When this is run, it will return the user to the home directory, which in this case is !!!!
 
