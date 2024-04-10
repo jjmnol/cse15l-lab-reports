@@ -13,6 +13,7 @@ The second example is using the command `cd` with a path to directory as an argu
 ![Image](
 
 The last example is using the command `cd` with a path to a file as an argument. Doing this, a series of directories will be listed from first to last, with the final directory being the one that is opened.
+
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 # ls
 ## No Arguments
