@@ -22,7 +22,7 @@ The last example is using the command `cd` with a path to a file as an argument.
 ![image](https://github.com/jjmnol/cse15l-lab-reports/assets/146889917/9e2a29d1-abd7-4b83-8c87-03035f86b764)
 
 
-The first example is using the command `ls` with no arguments. When no arguments are provided with `ls`, it will return the list of files in the current directory in alphabetical order. This is because there is no specific directory that it is being asked to list the files of, so instead it displays the files in the home directory.
+The first example is using the command `ls` with no arguments. When no arguments are provided with `ls`, it will return the list of files in the current directory in alphabetical order. This is because there is no specific directory that it is being asked to list the files of, so instead it displays everything accessible to the user in the home directory.
 
 > ## 2. A path to directory as an argument
 ![Image](
