@@ -25,9 +25,10 @@ The last example is using the command `cd` with a path to a file as an argument.
 The first example is using the command `ls` with no arguments. When no arguments are provided with `ls`, it will return the list of files in the current directory in alphabetical order. This is because there is no specific directory that it is being asked to list the files of, so instead it displays everything accessible to the user in the home directory.
 
 > ## 2. A path to directory as an argument
-![Image](
+![image](https://github.com/jjmnol/cse15l-lab-reports/assets/146889917/0e5d263f-ac7f-4730-8478-40d57b0c1df8)
 
-The second example is using the command `ls` with a path to directory as an argument. When this is run, it will !!!
+
+The second example is using the command `ls` with a path to directory as an argument. When this is run, it will show the user the contents of the directory that was called upon. In this example, it is being asked to list the files in links and displays it to the user. This is because the user is being more specific in referencing a directory using `ls` compared to using it with no arguments.
 
 > ## 3. A path to a file as an argument
 ![Image](
