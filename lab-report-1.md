@@ -5,7 +5,8 @@
 The first example is using the command `cd` with no arguments. When this is run, it will return the user to the home directory, which in this case takes the user back from Documents to home. This is because since the `cd` command lacks an argument, it cannot directed anywhere besides the home directory.
 
 > ## 2. A path to directory as an argument
-![Image](
+![image](https://github.com/jjmnol/cse15l-lab-reports/assets/146889917/90c03318-5177-48e6-9a92-32746416921b)
+
 
 The second example is using the command `cd` with a path to directory as an argument. When using a path to directory as an argument using the command `cd`, it will change the working directory to the desired directory. In this case, it is !!!. 
 
