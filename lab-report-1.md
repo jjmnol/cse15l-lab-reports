@@ -47,7 +47,7 @@ The first example is using the command `cat` with no arguments. When the 'cat' i
 > ## 2. A path to directory as an argument
 ![image](https://github.com/jjmnol/cse15l-lab-reports/assets/146889917/85d8e66d-aee0-4bdf-9c95-d38a82d484a2)
 
-The second example is using the command `cat` with a path to directory as an argument. In this example, the target directory is lab1 and to access it, we are passing in OneDrive/Desktop/lab1 since that is where the directory is located. This does create an error because it can been seen that lb1 is a directory and not a file to be printed.
+The second example is using the command `cat` with a path to directory as an argument. In this example, the target directory is lab1 and to access it, we are passing in OneDrive/Desktop/lab1 since that is where the directory is located. This does create an error because nothing is printed and instead displays that "Is a directory".
 
 > ## 3. A path to a file as an argument
 ![image](https://github.com/jjmnol/cse15l-lab-reports/assets/146889917/e48adf91-23ad-478c-8549-2928aacfdfbb)
