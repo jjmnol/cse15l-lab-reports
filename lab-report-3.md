@@ -88,3 +88,6 @@ Output:
 ---
 
 ## For `grep`, the prompt I asked ChatGPT was "What are 4 different ways that `grep` can be used?
+![image](https://github.com/jjmnol/cse15l-lab-reports/assets/146889917/c0cb6435-66e5-4322-81ac-93c29bcf6f66)
+![image](https://github.com/jjmnol/cse15l-lab-reports/assets/146889917/051152d3-f82d-45aa-8a79-354feda73283)
+
