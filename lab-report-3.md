@@ -1,6 +1,6 @@
 > # Part 1
 
-1. The failure-inducing input for the buggy program
+**1. The failure-inducing input for the buggy program**
    ```
    @Test
    public void testReversed2(){
@@ -8,7 +8,7 @@
      assertArrayEquals(new int[]{5,3,1}, ArrayExamples.reversed(input2));
    }
    ```
-3. The input that doesn't induce a failure
+**2. The input that doesn't induce a failure**
    ```
    @Test 
 	public void testReverseInPlace() {
@@ -17,12 +17,35 @@
     assertArrayEquals(new int[]{ 3 }, input1);
    }
    ```
-4. The symptom
-![image](https://github.com/jjmnol/cse15l-lab-reports/assets/146889917/3039d099-c581-4b81-ae6f-d4cb8d51ffb0)
-5. ```
-   
+**3. The symptom**
 
+![image](https://github.com/jjmnol/cse15l-lab-reports/assets/146889917/e827f24f-0634-4ce9-ab3e-2e3a4aff073d)
 
+**4. The bug**
+
+**Before**
+```
+static int[] reversed(int[] arr) {
+    int[] newArray = new int[arr.length];
+    for(int i = 0; i < arr.length; i += 1) {
+      arr[i] = newArray[arr.length - i - 1];
+    }
+    return arr;
+}
+```
+**After**
+```
+static int[] reversed(int[] arr) {
+    int[] newArray = new int[arr.length];
+    for(int i = 0; i < arr.length; i += 1) {
+      newArray[i] = newArray[arr.length - i -1];
+    }
+    return arr;
+}
+```
+5.  Using `newArray[i] = newArray[arr.length - i -1];` instead of `arr[i] = newArray[arr.length - i - 1];` fixes the issue because it updates the code to the new array. With the code `arr[i] = newArray[arr.length - i - 1];`, it was utilizing the old array, causing the error because instead of updating the new array, it was updating the old one.
+
+---
 > # Part 2
 
 ## `grep`
