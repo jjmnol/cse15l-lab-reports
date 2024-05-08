@@ -3,7 +3,7 @@
 
 ## Part 2
 > 1. ![image](https://github.com/jjmnol/cse15l-lab-reports/assets/146889917/692b7eac-129a-4364-b121-a13b4253a182)
-> 2. ![Screenshot 2024-04-24 210105](https://github.com/jjmnol/cse15l-lab-reports/assets/146889917/413b07a0-631e-46d0-8fd8-6e4cf62dbdd4)
+> 2. ![image](https://github.com/jjmnol/cse15l-lab-reports/assets/146889917/59792f8c-5e9e-4308-8bc5-9821f083c11d)
 > 3. ![image](https://github.com/jjmnol/cse15l-lab-reports/assets/146889917/0fe94d26-d434-42d0-adcd-974b6120a212)
  
 ## Part 3
