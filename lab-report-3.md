@@ -43,7 +43,7 @@ static int[] reversed(int[] arr) {
     return arr;
 }
 ```
-5.  Using `newArray[i] = newArray[arr.length - i -1];` instead of `arr[i] = newArray[arr.length - i - 1];` fixes the issue because it updates the code to the new array. With the code `arr[i] = newArray[arr.length - i - 1];`, it was utilizing the old array, causing the error because instead of updating the new array, it was updating the old one.
+**5.** Using `newArray[i] = newArray[arr.length - i -1];` instead of `arr[i] = newArray[arr.length - i - 1];` fixes the issue because it updates the code to the new array. With the code `arr[i] = newArray[arr.length - i - 1];`, it was utilizing the old array, causing the error because instead of updating the new array, it was updating the old one.
 
 ---
 > # Part 2
