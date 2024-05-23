@@ -96,23 +96,25 @@ The `grep -v` command is searching through the file `technical/biomed/1471-2490-
 3. To search for a specific pattern in the lines of a file
 
 ```
-$ grep "E. coli" technical/biomed/1471-2334-3-13.txt
+$ grep -n "E. coli" technical/biomed/1471-2334-3-13.txt
 ```
 Output:
 
-![image](https://github.com/jjmnol/cse15l-lab-reports/assets/146889917/d5d10af9-0689-4587-8181-ebd90edb8e60)
+![image](https://github.com/jjmnol/cse15l-lab-reports/assets/146889917/e8676b20-074e-4dd8-852d-34481d05baeb)
 
-The command `grep` searches for a specific pattern in the lines of a certain file, in this case "E. coli" in `technical/biomed/1471-2334-3-13.txt`. This command is extremely useful when trying to find information with that specific pattern to help specify only necessary details.
+
+The command `grep -n` searches for a specific pattern in the lines of a certain file, in this case "E. coli" in `technical/biomed/1471-2334-3-13.txt`, and lists the line number as well as the phrase that contains the pattern. This command is extremely useful when trying to see the amount of times a word is used in the file and where the pattern is located.
 
 ```
-$ grep "disorder" technical/plos/pmed.0010061.txt
+$ grep -n "disorder" technical/plos/pmed.0010061.txt
 ```
 
 Output:
 
-![image](https://github.com/jjmnol/cse15l-lab-reports/assets/146889917/6a64f7c7-ae30-4033-a87c-37411c034b64)
+![image](https://github.com/jjmnol/cse15l-lab-reports/assets/146889917/32ef3cff-b05a-49fc-9718-88ec62cafc43)
 
-In this case, `grep` is searching for the word "disorder" in `technical/plos/pmed.0010061.txt`. This command is useful because it allows the individual to gather all the information they need regarding the pattern they are searching for. 
+
+In this case, `grep -n` is searching for the word "disorder" in `technical/plos/pmed.0010061.txt`. This command is useful because it allows the individual to gather all the information they need regarding the pattern they are searching for. 
 
 ---
 
