@@ -144,4 +144,6 @@ The command `grep -c` is searching for the amount of times the word "the" is in 
 ## Works Cited
 ![image](https://github.com/jjmnol/cse15l-lab-reports/assets/146889917/c0cb6435-66e5-4322-81ac-93c29bcf6f66)
 ![image](https://github.com/jjmnol/cse15l-lab-reports/assets/146889917/051152d3-f82d-45aa-8a79-354feda73283)
+![image](https://github.com/jjmnol/cse15l-lab-reports/assets/146889917/2a955e3d-3448-4bdc-baaf-632358355595)
+
 
