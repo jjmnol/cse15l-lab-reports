@@ -19,7 +19,7 @@ Cloning the fork from my repository allowed me to access the code needed in orde
 ---
 
 ## Step 6:
-`bash test.sh`
+`bash<space>test.sh<enter>`
 
 ![image](https://github.com/jjmnol/cse15l-lab-reports/assets/146889917/49c328f8-40f3-4109-ad6e-e05a3b396052)
 
@@ -54,7 +54,7 @@ The command `vim` was used again to access `ListExamples.java` to locate the err
 
 As I was scanning for the error, I realized it was on line 44, so I used `:44` access the line.
 
-- `i<right><right><right><right><right><right><backspace> 2 <esc>`
+- `i<right><right><right><right><right><right><backspace>2<esc>`
 
 ![image](https://github.com/jjmnol/cse15l-lab-reports/assets/146889917/f29795e5-2563-4e0b-8212-4de31cc539a4)
 
@@ -81,7 +81,7 @@ I used `:q` to exit the file again.
 ---
 
 ## Step 8:
-`bash test.sh`
+`bash<space>test.sh<enter>`
 
 ![image](https://github.com/jjmnol/cse15l-lab-reports/assets/146889917/1a242f29-64ed-4fc2-a8c1-54970bebee6a)
 
